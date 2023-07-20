@@ -1,0 +1,37 @@
+{
+   "milks":[
+    {
+        "id": 1,
+        "name": "Chocolate",
+        "price": 55000,
+        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2023/02/Tra-Xanh-Sua-Dau.png"
+    },
+    {
+        "id": 2,
+        "name": "Strawberry",
+        "price": 45000,
+        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+    },
+    {
+        "id": 3,
+        "name": "Vanilla",
+        "price": 35000,
+        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2018/02/Tr%C3%A0-s%E1%BB%AFa-Tr%C3%A2n-ch%C3%A2u-%C4%91en-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Mint",
+        "price": 25000,
+        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+    },
+    {
+        "id": 5,
+        "name": "Lemon",
+        "price": 15000,
+        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+    }
+],
+    "users":[
+        
+    ]
+}

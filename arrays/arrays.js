@@ -1,0 +1,10 @@
+var xeBan = ['ford', 'toyota', 'chevy'];
+var ngayThang = [new Date(), new Date()];
+var xeBon = xeBan[0];
+var xeLu = xeBan.pop();
+xeBan.push('tesla');
+var nextDay = [];
+nextDay.push(new Date());
+nextDay.push('2020-12-12');
+console.log(nextDay);
+console.log(xeBon.toUpperCase());
