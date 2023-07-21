@@ -31,7 +31,33 @@
         "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
     }
 ],
-    "users":[
-        
+    "cv":[
+        {
+            "hoten": "Nguyễn Văn A",
+            "sdt": "0123456789",
+            "email": "leviet@gmail.com",
+            "diachi": "Hà Nội",
+            "chuyennganh": "CNTT",
+            "kinang": ["HTML", "CSS", "JS", "PHP", "MySQL"],
+            "ngoaingu":{ "tienganh": "90%", "tiengnhat": "50%","tienghan":"30%"},
+            "mota":["hòa đồng","có trách nhiệm","chú trọng bên ngoài","biết cách kết nối mọi người","thích học hỏi"],
+            "hocvan": {
+                "ten": "Đại học Công nghệ",
+                "chuyennganh": "Công nghệ thông tin",
+                "thoigian": "2018-2022"
+            },
+            "kinhnghiem":[
+                {
+                    "tenduan": "Dự án A",
+                    "chucvu": "Nhân viên",
+                    "congviec":["lập trình","thiết kế","test"]
+                },
+                {
+                    "tenduan": "Dự án B",
+                    "chucvu": "Nhân viên",
+                    "congviec":["lập trình","thiết kế","test"]
+                }   
+            ]
+        }
     ]
 }
