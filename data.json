@@ -86,10 +86,13 @@
   ],
   "users": [
     {
-      "name": "Le Viet Nam ",
-      "age": 0.20628390673301666,
-      "address": "123 HO CHI MINH",
-      "id": 2
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "leviet@gmail.com",
+      "age": 20,
+      "address": "HCM",
+      "phone": "0123456789",
+      "job": "Developer"
     }
   ]
 }
