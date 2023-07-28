@@ -1,9 +1,11 @@
-interface UserProps{ 
+export interface UserProps{ 
     name?: string;
     age?: number;
     address?: string;
     phone?: number;
     gmail?: string;
+    job?: string;
+    email?: string;
   }
 
   type Callback= () => void;
@@ -12,7 +14,7 @@ interface UserProps{
     events: { [key: string]: Callback[] } = {};
     constructor(private data: UserProps) {
       this.data = data;
-      console.log(this.data);
+      // console.log(this.data);
     };
     get(propName:string):string|number {
       return this.data[propName];
