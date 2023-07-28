@@ -2,7 +2,7 @@ import axios from 'axios';
 import { User, UserProps } from './users';
 
 const url = 'http://localhost:3000/users/';
-const user_url = 'http://localhost:3000/users/3';
+const user_url = 'http://localhost:3000/users/1';
 
 // axios.post(url, {
 //     name: 'Le Viet Nam',
