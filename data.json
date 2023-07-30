@@ -86,27 +86,27 @@
   ],
   "users": [
     {
-      "id": 1,
-      "name": "Nguyễn Văn A",
+      "name": "Nguyễn Văn B",
+      "job": "Developer",
+      "phone": 123456789,
       "email": "leviet@gmail.com",
-      "age": 20,
       "address": "HCM, nhà bè",
-      "phone": "0123456789",
-      "job": "Developer"
+      "id": 1
     },
     {
-      "name": "Le Viet Nam",
-      "age": 11,
-      "address": "123 HO CHI MINH",
+      "name": "Lê Việt Nam",
+      "job": "Hakcer",
+      "phone": 355019207,
+      "email": "nhan.nguyentrong.dev@gmail.com",
+      "address": "81 ấp 5",
       "id": 2
     },
     {
-      "name": "Le Viet Nam",
-      "age": 55,
-      "address": "123 HO CHI MINH",
-      "job": "Student",
-      "phone": "123456789",
-      "email": "levietnam@gmail",
+      "name": "Lê Việt NamC",
+      "job": "Developer",
+      "phone": 355019207,
+      "email": "a@gmail.com",
+      "address": "81 ấp 5",
       "id": 3
     }
   ]

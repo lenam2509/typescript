@@ -212,3 +212,93 @@
 .box3 ul li {
     color: #800080;
 }
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #800080;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.form input:focus{
+    outline: none;
+    border: 1px solid #ffc0cb;
+}
+
+.form button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #800080;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #800080;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #fff;
+    color: #800080;
+    transition: 0.5s;
+}
+
+.form_update{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form_update input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #800080;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.form_update input:focus{
+    outline: none;
+    border: 1px solid #ffc0cb;
+}
+
+.form_update button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #800080;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #800080;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_update button:hover{
+    background-color: #fff;
+    color: #800080;
+    transition: 0.5s;
+}
