@@ -1,63 +1,113 @@
 {
-   "milks":[
+  "milks": [
     {
-        "id": 1,
-        "name": "Chocolate",
-        "price": 55000,
-        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2023/02/Tra-Xanh-Sua-Dau.png"
+      "id": 1,
+      "name": "Chocolate",
+      "price": 55000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2023/02/Tra-Xanh-Sua-Dau.png"
     },
     {
-        "id": 2,
-        "name": "Strawberry",
-        "price": 45000,
-        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+      "id": 2,
+      "name": "Strawberry",
+      "price": 45000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
     },
     {
-        "id": 3,
-        "name": "Vanilla",
-        "price": 35000,
-        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2018/02/Tr%C3%A0-s%E1%BB%AFa-Tr%C3%A2n-ch%C3%A2u-%C4%91en-1.png"
+      "id": 3,
+      "name": "Vanilla",
+      "price": 35000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2018/02/Tr%C3%A0-s%E1%BB%AFa-Tr%C3%A2n-ch%C3%A2u-%C4%91en-1.png"
     },
     {
-        "id": 4,
-        "name": "Mint",
-        "price": 25000,
-        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+      "id": 4,
+      "name": "Mint",
+      "price": 25000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
     },
     {
-        "id": 5,
-        "name": "Lemon",
-        "price": 15000,
-        "thumbnail":"https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+      "id": 5,
+      "name": "Lemon",
+      "price": 15000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
     }
-],
-    "cv":[
+  ],
+  "cv": [
+    {
+      "hoten": "Nguyễn Văn A",
+      "sdt": "0123456789",
+      "email": "leviet@gmail.com",
+      "diachi": "Hà Nội",
+      "chuyennganh": "CNTT",
+      "kinang": [
+        "HTML",
+        "CSS",
+        "JS",
+        "PHP",
+        "MySQL"
+      ],
+      "ngoaingu": {
+        "tienganh": "90%",
+        "tiengnhat": "50%",
+        "tienghan": "30%"
+      },
+      "mota": [
+        "hòa đồng",
+        "có trách nhiệm",
+        "chú trọng bên ngoài",
+        "biết cách kết nối mọi người",
+        "thích học hỏi"
+      ],
+      "hocvan": {
+        "ten": "Đại học Công nghệ",
+        "chuyennganh": "Công nghệ thông tin",
+        "thoigian": "2018-2022"
+      },
+      "kinhnghiem": [
         {
-            "hoten": "Nguyễn Văn A",
-            "sdt": "0123456789",
-            "email": "leviet@gmail.com",
-            "diachi": "Hà Nội",
-            "chuyennganh": "CNTT",
-            "kinang": ["HTML", "CSS", "JS", "PHP", "MySQL"],
-            "ngoaingu":{ "tienganh": "90%", "tiengnhat": "50%","tienghan":"30%"},
-            "mota":["hòa đồng","có trách nhiệm","chú trọng bên ngoài","biết cách kết nối mọi người","thích học hỏi"],
-            "hocvan": {
-                "ten": "Đại học Công nghệ",
-                "chuyennganh": "Công nghệ thông tin",
-                "thoigian": "2018-2022"
-            },
-            "kinhnghiem":[
-                {
-                    "tenduan": "Dự án A",
-                    "chucvu": "Nhân viên",
-                    "congviec":["lập trình","thiết kế","test"]
-                },
-                {
-                    "tenduan": "Dự án B",
-                    "chucvu": "Nhân viên",
-                    "congviec":["lập trình","thiết kế","test"]
-                }   
-            ]
+          "tenduan": "Dự án A",
+          "chucvu": "Nhân viên",
+          "congviec": [
+            "lập trình",
+            "thiết kế",
+            "test"
+          ]
+        },
+        {
+          "tenduan": "Dự án B",
+          "chucvu": "Nhân viên",
+          "congviec": [
+            "lập trình",
+            "thiết kế",
+            "test"
+          ]
         }
-    ]
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "leviet@gmail.com",
+      "age": 20,
+      "address": "HCM, nhà bè",
+      "phone": "0123456789",
+      "job": "Developer"
+    },
+    {
+      "name": "Le Viet Nam",
+      "age": 11,
+      "address": "123 HO CHI MINH",
+      "id": 2
+    },
+    {
+      "name": "Le Viet Nam",
+      "age": 55,
+      "address": "123 HO CHI MINH",
+      "job": "Student",
+      "phone": "123456789",
+      "email": "levietnam@gmail",
+      "id": 3
+    }
+  ]
 }

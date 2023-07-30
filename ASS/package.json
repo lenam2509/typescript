@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "parcel": "^2.9.3"
+    "concurrently": "^8.2.0",
+    "jsdom": "^22.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1"
   }
 }
