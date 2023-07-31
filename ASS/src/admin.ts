@@ -10,7 +10,6 @@ axios.get('http://localhost:3000/milks').then(response => {
     milks.forEach((milk: { id: number; name: string; price: number; thumbnail:string }) => {
         const html = `
         <tr>
-        <th scope="row">${milks.length}</th>
         <td>${milk.id}</td>
         <td>${milk.name}</td>
         <td>${milk.price}</td>
