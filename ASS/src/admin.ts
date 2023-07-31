@@ -12,7 +12,7 @@ axios.get('http://localhost:3000/milks').then(response => {
         <tr>
         <td>${milk.id}</td>
         <td>${milk.name}</td>
-        <td>${milk.price}</td>
+        <td>${milk.price.toLocaleString('vi-VN')}đ</td>
         <td>
             <img src="${milk.thumbnail}}"
                 width="50px" height="50px" alt="">
