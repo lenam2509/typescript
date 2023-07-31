@@ -86,11 +86,11 @@
   ],
   "users": [
     {
-      "name": "Nguyễn Văn B",
-      "job": "Developer",
-      "phone": 123456789,
-      "email": "leviet@gmail.com",
-      "address": "HCM, nhà bè",
+      "name": "Lê Việt Nam 2",
+      "job": "Hakcer",
+      "phone": 355019207,
+      "email": "nhan.nguyentrong.dev@gmail.com",
+      "address": "81 ấp 5",
       "id": 1
     },
     {
@@ -108,6 +108,14 @@
       "email": "a@gmail.com",
       "address": "81 ấp 5",
       "id": 3
+    },
+    {
+      "name": "Lê Việt Nam",
+      "job": "hacker",
+      "phone": 355019207,
+      "email": "long@gmail.com",
+      "address": "81 ấp 5",
+      "id": 4
     }
   ]
 }
