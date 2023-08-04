@@ -8,112 +8,174 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
     ">
 </head>
+<style>
+    .table_repponsive {
+        overflow: auto;
+        max-height: 400px;
+    }
+</style>
 
 <body>
 
-    <div class="container border border mt-2">
-        <p><button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#danhsach"
-                aria-expanded="false" aria-controls="danhsach" id="list">
-                Danh sách
-            </button>
-            <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" id="btnAdd"
-                data-bs-target="#new_data" aria-expanded="false" aria-controls="new_data">
-                Thêm dữ liệu
-            </button>
-        <div class="input-group flex-nowrap">
-            <span class="input-group-text" id="addon-wrapping">Search</span>
-            <input type="text" class="form-control" id="search_input" placeholder="tìm sản phẩm" aria-label="Username"
-                aria-describedby="addon-wrapping">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 text-uppercase fw-bold" href="#">Admin Panel</a>
+            <form class="d-flex" role="search">
+                <img class="rounded-circle"
+                    src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                    alt="" width="50px" height="50px">
+            </form>
         </div>
-        </p>
-        <div class="collapse show" id="danhsach">
-            <div class="card card-body">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <!-- <th scope="col">#</th> -->
-                            <th scope="col">id</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Image</th>
-                            <th scope="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody id="milkList">
-                        <!-- <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>
-                                <img src="https://gongcha.com.vn/wp-content/uploads/2023/02/Tra-Xanh-Sua-Dau.png"
-                                    width="50px" height="50px" alt="">
-                            </td>
-                            <td>
-                                <p>
-                                    <button class="btn btn-warning">Edit</button>
-                                    <button class="btn btn-danger">Delete</button>
-                                </p>
-                            </td>
-                        </tr> -->
-                    </tbody>
-                </table>
-            </div>
         </div>
-        <div class="collapse" id="new_data">
-            <div class="card card-body">
-                <form id="form-add">
-                    <div class="mb-3">
-                        <label class="form-label">name</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">price</label>
-                        <input type="number" class="form-control" id="price" name="price">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Image</label>
-                        <input type="text" class="form-control" id="thumbnail" name="thumbnail">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Add</button>
-                </form>
-            </div>
-        </div>
+    </nav>
 
-        <div class="modal" tabindex="-1" id="edit_modal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Edit</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+    <div class="d-flex" style="height: 100vh;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                  Customers
+                </a>
+              </li>
+            </ul>
+            <hr>
+          
+          </div>
+        <div class="container border border mt-2">
+            <p><button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#danhsach"
+                    aria-expanded="false" aria-controls="danhsach" id="list">
+                    Danh sách
+                </button>
+                <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" id="btnAdd"
+                    data-bs-target="#new_data" aria-expanded="false" aria-controls="new_data">
+                    Thêm dữ liệu
+                </button>
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Search</span>
+                <input type="text" class="form-control" id="search_input" placeholder="tìm sản phẩm"
+                    aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            </p>
+            <div class="collapse show" id="danhsach">
+                <div class="card card-body overflow-auto">
+                    <div class="table_repponsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <!-- <th scope="col">#</th> -->
+                                    <th scope="col">id</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Image</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="milkList">
+                                <!-- <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>
+                                            <img src="https://gongcha.com.vn/wp-content/uploads/2023/02/Tra-Xanh-Sua-Dau.png"
+                                                width="50px" height="50px" alt="">
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <button class="btn btn-warning">Edit</button>
+                                                <button class="btn btn-danger">Delete</button>
+                                            </p>
+                                        </td>
+                                    </tr> -->
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="modal-body">
-                        <form id="form-edit">
-                            <div class="mb-3">
-                                <label class="form-label">id</label>
-                                <input type="text" readonly class="form-control" id="id_edit" name="id_edit">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">name</label>
-                                <input type="text" class="form-control" id="name_edit" name="name_edit">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">price</label>
-                                <input type="number" class="form-control" id="price_edit" name="price_edit">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Image</label>
-                                <input type="text" class="form-control" id="thumbnail_edit" name="thumbnail_edit">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Save</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+            <div class="collapse" id="new_data">
+                <div class="card card-body">
+                    <form id="form-add">
+                        <div class="mb-3">
+                            <label class="form-label">name</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">price</label>
+                            <input type="number" class="form-control" id="price" name="price">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Image</label>
+                            <input type="text" class="form-control" id="thumbnail" name="thumbnail">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="edit_modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Edit</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="form-edit">
+                                <div class="mb-3">
+                                    <label class="form-label">id</label>
+                                    <input type="text" readonly class="form-control" id="id_edit" name="id_edit">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">name</label>
+                                    <input type="text" class="form-control" id="name_edit" name="name_edit">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">price</label>
+                                    <input type="number" class="form-control" id="price_edit" name="price_edit">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Image</label>
+                                    <input type="text" class="form-control" id="thumbnail_edit" name="thumbnail_edit">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

@@ -2,7 +2,7 @@
   "milks": [
     {
       "name": "Chocolate",
-      "price": 55000,
+      "price": 550000,
       "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
       "id": 1
     },
@@ -29,6 +29,12 @@
       "price": 25000,
       "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
       "id": 5
+    },
+    {
+      "name": "GongCha",
+      "price": 1000000,
+      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
+      "id": 6
     }
   ],
   "cv": [
