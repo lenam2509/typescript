@@ -1,7 +1,7 @@
 {
   "milks": [
     {
-      "name": "Chocolate",
+      "name": "Chocolatee",
       "price": 550000,
       "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
       "id": 1
@@ -29,65 +29,153 @@
       "price": 25000,
       "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
       "id": 5
-    },
-    {
-      "name": "GongCha",
-      "price": 1000000,
-      "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png",
-      "id": 6
     }
   ],
-  "cv": [
+  "bills": [
     {
-      "hoten": "Nguyễn Văn A",
-      "sdt": "0123456789",
-      "email": "leviet@gmail.com",
-      "diachi": "Hà Nội",
-      "chuyennganh": "CNTT",
-      "kinang": [
-        "HTML",
-        "CSS",
-        "JS",
-        "PHP",
-        "MySQL"
-      ],
-      "ngoaingu": {
-        "tienganh": "90%",
-        "tiengnhat": "50%",
-        "tienghan": "30%"
-      },
-      "mota": [
-        "hòa đồng",
-        "có trách nhiệm",
-        "chú trọng bên ngoài",
-        "biết cách kết nối mọi người",
-        "thích học hỏi"
-      ],
-      "hocvan": {
-        "ten": "Đại học Công nghệ",
-        "chuyennganh": "Công nghệ thông tin",
-        "thoigian": "2018-2022"
-      },
-      "kinhnghiem": [
+      "id": 1,
+      "user_id": 1,
+      "date": "2021-08-01",
+      "total": 200000,
+      "status": "Đã thanh toán",
+      "note": "Giao hàng nhanh",
+      "products": [
         {
-          "tenduan": "Dự án A",
-          "chucvu": "Nhân viên",
-          "congviec": [
-            "lập trình",
-            "thiết kế",
-            "test"
-          ]
+          "id": 1,
+          "name": "Chocolatee",
+          "price": 550000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
         },
         {
-          "tenduan": "Dự án B",
-          "chucvu": "Nhân viên",
-          "congviec": [
-            "lập trình",
-            "thiết kế",
-            "test"
-          ]
+          "id": 2,
+          "name": "Strawberry",
+          "price": 45000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
         }
-      ]
+      ],
+      "user": {
+        "name": "Lê Việt Nam 1",
+        "job": "Hakcer",
+        "phone": 355019207,
+        "email": "nhan.nguyentrong.dev@gmail.com",
+        "address": "81 ấp 5"
+      }
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "date": "2021-08-01",
+      "total": 200000,
+      "status": "Đã thanh toán",
+      "note": "Giao hàng nhanh",
+      "products": [
+        {
+          "id": 1,
+          "name": "Chocolatee",
+          "price": 550000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        },
+        {
+          "id": 2,
+          "name": "Strawberry",
+          "price": 45000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        }
+      ],
+      "user": {
+        "name": "Lê Việt Nam 2",
+        "job": "Hakcer",
+        "phone": 355019207,
+        "email": "nhan.nguyentrong.dev@gmail.com",
+        "address": "81 ấp 5"
+      }
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "date": "2021-08-01",
+      "total": 200000,
+      "status": "Chưa thanh toán",
+      "note": "Giao hàng nhanh",
+      "products": [
+        {
+          "id": 1,
+          "name": "Chocolatee",
+          "price": 550000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        },
+        {
+          "id": 2,
+          "name": "Strawberry",
+          "price": 45000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        }
+      ],
+      "user": {
+        "name": "Lê Việt Nam 3",
+        "job": "Hakcer",
+        "phone": 355019207,
+        "email": "nhan.nguyentrong.dev@gmail.com",
+        "address": "81 ấp 5"
+      }
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "date": "2021-08-01",
+      "total": 200000,
+      "status": "Chờ duyệt",
+      "note": "Giao hàng nhanh",
+      "products": [
+        {
+          "id": 1,
+          "name": "Chocolatee",
+          "price": 550000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        },
+        {
+          "id": 2,
+          "name": "Strawberry",
+          "price": 45000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        }
+      ],
+      "user": {
+        "name": "Lê Việt Nam 4",
+        "job": "Hakcer",
+        "phone": 355019207,
+        "email": "nhan.nguyentrong.dev@gmail.com",
+        "address": "81 ấp 5"
+      }
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "date": "2021-08-01",
+      "total": 200000,
+      "status": "Chờ duyệt",
+      "note": "Giao hàng nhanh",
+      "products": [
+        {
+          "id": 1,
+          "name": "Chocolatee",
+          "price": 550000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        },
+        {
+          "id": 2,
+          "name": "Strawberry",
+          "price": 45000,
+          "thumbnail": "https://gongcha.com.vn/wp-content/uploads/2022/06/Tra-sua-tran-chau-HK.png"
+        }
+      ],
+      "user": {
+        "name": "Lê Việt Nam 2",
+        "job": "Hakcer",
+        "phone": 355019207,
+        "email": "nhan.nguyentrong.dev@gmail.com",
+        "address": "81 ấp 5"
+      }
     }
   ],
   "users": [
